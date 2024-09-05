@@ -1,0 +1,5 @@
+tensorflow==2.16.1
+Flask
+fastapi
+scikit-learn
+gunicorn
