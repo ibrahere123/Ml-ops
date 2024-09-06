@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt  # Make sure the requirements file is named correctly
+          pip install -r requirments.txt  # Make sure the requirements file is named correctly
 
       - name: Install Node.js
         uses: actions/setup-node@v3  # Install Node.js to ensure compatibility with Vercel CLI
